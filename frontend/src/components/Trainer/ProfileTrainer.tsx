@@ -234,12 +234,15 @@ function ProfileTrainer() {
                   // boxShadow:"box-shadow: 5px 7px 3px 7px;"
                 }}
               >
+                <div
+               style={{ justifyContent: "center",margin:"1rem 6rem" }}
+                >
                 <Avatar
                   sx={{
                     bgcolor: "#f48fb1",
                     width: 200,
                     height: 200,
-                    marginLeft: 14,
+                    // marginLeft: 14,
                     fontSize: 40,
                   }}
                 >
@@ -247,6 +250,7 @@ function ProfileTrainer() {
                   <Avatar src={environmentIcon} sx={{ width: 50, hight: 50 }} />
                   {/* <Avatar src={Body} sx ={{width:100,hight:10}}/> */}
                 </Avatar>
+                </div>
 
                 <h2
                   style={{
